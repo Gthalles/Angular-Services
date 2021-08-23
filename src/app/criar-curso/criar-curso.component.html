@@ -1,0 +1,6 @@
+<h5>Lista de cursos 2:</h5>
+
+<input (blur)="onAddCurso(cursoInput.value)" type="text" #cursoInput>
+<ul>
+  <li *ngFor="let curso of cursos">{{ curso }}</li>
+</ul>
